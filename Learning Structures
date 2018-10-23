@@ -1,0 +1,255 @@
+
+Get Power BI Certified Today
+
+
+
+
+
+https://www.youtube.com/watch?v=1bysgMsPwC4&list=PL7GQQXV5Z8ef2SjkDpLnvsz7TAQjlzlpO
+
+
+21-1
+
+3 phases
+Author
+local desktop
+query and model
+excel and powerBI
+publish
+to powerBI.com cloud
+consume
+reports and dashboards
+visualization
+
+21-2
+power query 
+power pivot
+
+Excel & powerBI
+query
+model
+functions
+query engine
+
+
+
+
+
+
+
+
+
+
+
+PowerPivot: 是用来处理存储小容量数据（最好是在百兆几下级别），对其进行建立数据模型，对数据进行分析，计算. 这个一般就是数据分析员自己分析时用；
+Powerview: 这是用来展示数据（data visualization). 他是基于powerpivot建立的数据，来把这些数据视图化，方便展示给别人看；并且非数据人员，其他部门的员工也可以非常方便的使用查看想要的数据；并且非常适合放在Sharepoint使用；
+Power View是嵌套在Excel里的交互式图表工具，只用Excel也可以制作高大上的仪表板。
+
+
+Power BI:
+他更像是融合了powerpivot 和power view 的工具，因为powerpivot重分析轻视图，而power view重视图而轻分析，所以难免有缺点；那么power BI就结合了一下双方；
+分析不如powerpivot,视图不如power view 即是缺点也是优点；他可以和Hadoop数据源链接！
+目前他仅可以在office 365和excel 2013及2016使用；不可以和sharepoint 结合使用；
+
+
+
+efficiency
+short term
+small amount users
+long term
+large amount users
+ad-hoc analysis request
+
+
+
+
+
+
+query → model → visualization
+
+
+
+
+
+desktop
+create sheets
+desktop application
+connect
+analyze
+visualize
+use API to build customized visualized reports
+dashboard
+track
+interactive with the data
+use natural language to analyze
+modeling
+Service
+share sheets
+online service
+uncover the business insights
+
+
+
+
+
+
+workspace
+dashboards
+tiles
+from diff reports
+take you to the original report
+each reports sources of each visuals / dataset
+charts
+maps
+reports
+workbooks
+raw excel files
+datasets
+
+
+workspace
+my workspace
+individual / personal scratches
+app workspace / group work space / published to the group / need update for the end user / can control users to see it
+collection of dashboards and reports
+interactive but not edited
+open in the browser
+collaborating and sharing (need the pro license)
+app workspaces
+create an app
+publish your dashboards and reports to a group
+sharing from service
+
+
+
+Mobile
+
+
+So，有一点很重要：这个引擎使用的是 SQL Server AS 的 DAX 语言，而不是 Excel 的函数，尽管为了便于用户学习很多函数取了跟 Excel 中对应函数同样的名字。Power BI 的核心是 DAX ! Power BI 的核心是 DAX ! Power BI 的核心是 DAX !重要的事情说三遍，不会 DAX 只会 Excel 函数是玩不转 Power BI 的！
+
+可以负责任的告诉大家，微软 SQL Server AS 组的新人也把这本书当作上手的教材来学。亚马逊链接：
+
+https://www.amazon.com/Definitive-Guide-DAX-intelligence-Microsoft/dp/073569835X/ref=sr_1_1?ie=UTF8&qid=1527155121&sr=8-1&keywords=The+Definitive+Guide+to+DAX
+
+该书的免费章节非常好，可以作为你学习 DAX 的第一步，建议反复研究。
+
+
+
+
+
+
+Excel Power 系列（包括 Power Pivot，Power Query，Power View）以 个人 使用为主。
+
+Power BI体系（包括Power BI Desktop，Power http://BI.com云端等）以 企业团队协同 使用为主。
+
+SQL Server Analysis Service（SSAS）目前为2017版以 企业级规模BI 使用为主。
+
+
+以上三套方案的底层引擎发动机都是一样的，可以叫做DAX引擎，可以形象地理解为排量不同，Excel Power Pivot的排量在1.2左右；Power BI排量在1.4~2.0左右；SSAS排量从3.0起。
+
+
+
+
+powerBI
+Query
+Power Query是负责抓取和整理数据的，它可以抓取几乎市面上所有格式的源数据，然后再按照我们需要的格式整理出来。通过Power Query 我们可以快速将多个数据源的数据合并、追加到一起，任意组合数据、将数据进行分组、透视等整理操作。
+Pivot
+Power Pivot是微软Power BI 系列工具的大脑，负责建模分析。有人说它是过去20年Excel里最好的新功能。它可以：
+View
+
+
+map
+Power Map也是直接嵌套在Excel里的基于地图的可视化工具，看效果：
+Power BI for Office 365
+Power BI站点
+Power BI Online Service（在线版）主要负责仪表板的制作和分享
+数据管理
+Power BI移动端
+
+
+
+
+
+
+
+
+
+
+PowerBI
+software service
+application
+connectors
+
+
+
+
+Power BI 中的基本构建基块有：
+可视化 - visuals
+数据集 - data collection
+报表 - visual from more pages
+仪表板  -visual from single page
+磁贴 - Tiles
+
+
+
+Rich connectors on power BI
+get data link → services → github /GA/ sales force 
+pre-built in dashboard
+
+
+
+PowerQuery是以查询为主题而存在的
+数据获取：从不同来源，不同结构，不同形式获取数据并按统一格式进行横向合并，纵向（追加）合并，条件合并等。
+file
+MySQL
+Web
+Hadoop / HDFS
+
+
+数据转换：将原始数据转换成期望的结构或格式。
+数据处理：为了后续分析的需要进行数据预处理，例如：加入新列、新行、处理某些单元格值。
+
+
+
+PowerPivot – 定位：透视
+通俗地说，要了解一件复杂事情的本质，需要拨开迷雾，从多个角度来看它，所谓穿越迷雾，多维度观察。
+
+PowerBIDestop – 定位：洞察。PowerBIDestop/PowerBI 是为了能通过快速的图形拖拽，从图表的可视角度，观察出事物的规律，进而才知道要定制什么样的报表来监测什么样的变化。
+
+
+PowerMap – 定位：地图。如果你以为地图就是中国各地区”热力图”（销售额区域分布），那你就太小看这件事了。凡是以二维空间作为基础面的，都可以用地图来做展示，比如：一个公司员工的场地工位，标注一个员工的绩效、成本、性格等，一个几千人的企业，形成一个3D版的员工价值地图，你想象出了吗。
+
+
+
+
+
+您可以使用 Power BI 或 Tableau 创建仪表板，但二者最大的区别在于通过分析体验见解的方式。借助 Tableau，分析的最终目标并非仪表板，而是更好地理解您的数据。在 Tableau 中，您可以在不中断分析流的情况下，深入挖掘异常值或反复进行探索发现。
+
+
+交互图标
+可以提问的
+
+
+how long and when people call, direct messaging peaks, internet usage and so on. combine a lot of subscriber and network data together among multiple databases and source systems. They used several tools to store all the data, analyse it, search it and visualize it.
+
+pivot table
+
+vlookup
+
+
+将power BI 应用在目前的数据分析上, telco and network data analytics
+
+
+location of eNB drop, filter (location, number of threshold)
+bubble chart
+
+drop rate (by color)
+
+
+
+which time range the performance goes down
+colored bar chart with 24 hours 
+
+use data to drive performance, improve data performance, easier troubleshooting, solve customer issue, improve network design
+
+real time rich data analytics
